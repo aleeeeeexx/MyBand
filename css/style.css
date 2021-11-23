@@ -1,35 +1,73 @@
+.footer2 {
+
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    background: #5B6460; 
+    width: 100%;
+    height: 477px;
+    
+    
+}
 header {
 
-    font-size: 13px;
+    font-size: 15px;
     display: flex;
+    justify-content: space-between;
     justify-content: space-around;
 } 
 
 
 ul {
-    list-style-type: none;
+    
     display: flex; 
+    list-style-type: none;
     gap: 35px;
-    font-family:"Roboto", "Arial", sans-serif
+    font-family:"Roboto", "Arial", sans-serif;
+    
+    
 }
-
 
 a {
     text-decoration: none; 
     color: black;
 }
-.a {
-    width:20px;
-    height: 15px;
+
+.logo {
+
+    width: 50px;;
+    height: 25px;;
+    
 
 }
-.a2{
-    width: 693px;
-    height: 438px;
-    float: right;
+.a2{ 
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-start;
+   justify-content: space-around;
+   margin-top: 80px;
+  margin-bottom: 80px;
+   
+    
+}
+.thecabines {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.cabines {
+    font-size: 18px;
+    line-height: 20px;
+    
 }
 
-.top {
+.vid {
+    width: 750px;;
+    height: 455px;;
+}
+
+.booknow { 
+    display: flex; 
+    justify-content: space-between;
     font-size: 17px;
     color: #fff;
     background: #5B6460; 
@@ -38,6 +76,7 @@ a {
     padding-top: 15px;
     padding-left: 40px;
     padding-right: 40px;
+    
 }
  
 
@@ -50,12 +89,11 @@ a {
 }
 
 .text {
-    display: inline-block; 
+    display: flex; 
     position: absolute; 
     bottom: 400px; right: 60px; 
-    font-family:"Roboto", "Arial", sans-serif;
     font-style: normal;
-    font-size: 70px;
+    font-size: 5vw;
     color: #fff;
 
 
@@ -66,12 +104,12 @@ a {
     bottom: 380px; right: 90px; 
     font-family: "Roboto", "Arial", sans-serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 2vw;
     color: #fff;
 }
 .text3 {
     display: inline-block; 
-    position: absolute; 
+   position: absolute; 
     bottom: 350px; right: 117px; 
     font-family:"Roboto", "Arial", sans-serif;
     font-style: normal;
@@ -82,18 +120,17 @@ a {
 .button {
     font-size: 17px;
     color: #fff;
+    font-family:"Roboto", "Arial", sans-serif;
     background: #5B6460; 
     height: 65px;
-    font-family:"Roboto", "Arial", sans-serif;
-    display: inline-block; 
     position: absolute; 
-   /* top: 715px; 
-    padding-top: 50px;
-    width: 263px; */
+    top: 755px; 
+    padding-top: 25px;    
+    width: 250px;
     left: 146px; 
-    padding-right: 100px ;
-    padding-left: 100px;
-}
+   
+} 
+
 .button2 {
     font-size: 17px;
     color:black;
@@ -102,12 +139,45 @@ a {
     font-family:"Roboto", "Arial", sans-serif;
     display: inline-block; 
     position: absolute; 
-  /*  top: 715px; 
-    padding-top: 50px;
-    width: 263px; */
-    left: 440px; 
-    padding-right: 100px ;
-    padding-left: 100px;
+    top: 755px; 
+    padding-top: 25px;
+    width: 150px; 
+    left: 395px; 
+  
+    
+}
+
+.sizephoto {
+    width: 470px;
+    height: 400px;
 }
 
 
+.photo3 { 
+   
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+    
+    
+}
+  
+.weare {
+    width:100%;
+    height:auto;
+    margin: 0;
+    opacity: 0.90;
+}
+
+
+
+
+.little {
+    width: 70px;
+    height: 80px;
+}
+
+.facilities {
+    display: flex;
+    flex-direction: row;
+}
