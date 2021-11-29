@@ -1,23 +1,22 @@
-.footer2 {
 
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    background: #5B6460; 
-    width: 100%;
-    height: 477px;
-    
-    
-}
-header {
+nav {
 
     font-size: 15px;
     display: flex;
-    justify-content: space-between;
     justify-content: space-around;
+    
 } 
 
+p {
+    margin: 0;
+}
 
+body {
+    display: block;
+    margin: 0;
+
+
+}
 ul {
     
     display: flex; 
@@ -34,150 +33,28 @@ a {
 }
 
 .logo {
-
     width: 50px;;
-    height: 25px;;
-    
-
-}
-.a2{ 
-    display: flex;
-    flex-direction: row;
-   justify-content: flex-start;
-   justify-content: space-around;
-   margin-top: 80px;
-  margin-bottom: 80px;
-   
-    
-}
-.thecabines {
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-.cabines {
-    font-size: 18px;
-    line-height: 20px;
-    
+    height: 25px;; 
 }
 
-.vid {
-    width: 750px;;
-    height: 455px;;
+.img1 {
+    width: 100%;
+}
+.block{
+    background-image: url("images/1.jpg") center;
+    background-size: 100%;
+}
+.find {
+    font-size: 70px;
+    text-align: right;
+    padding-bottom: 140px;
+
+/*color:white;*/
 }
 
-.booknow { 
-    display: flex; 
-    justify-content: space-between;
-    font-size: 17px;
-    color: #fff;
-    background: #5B6460; 
-    height: 40px;
-    font-family:"Roboto", "Arial", sans-serif;
-    padding-top: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    
-}
- 
+.book {
+text-align: right;
+font-size: 15px;
 
 
-.poor {
-    width:100%;
-    height:auto;
-    margin: 0;
-    opacity: 0.90;
-}
-
-.text {
-    display: flex; 
-    position: absolute; 
-    bottom: 400px; right: 60px; 
-    font-style: normal;
-    font-size: 5vw;
-    color: #fff;
-
-
-}
-.text2 {
-    display: inline-block; 
-    position: absolute; 
-    bottom: 380px; right: 90px; 
-    font-family: "Roboto", "Arial", sans-serif;
-    font-style: normal;
-    font-size: 2vw;
-    color: #fff;
-}
-.text3 {
-    display: inline-block; 
-   position: absolute; 
-    bottom: 350px; right: 117px; 
-    font-family:"Roboto", "Arial", sans-serif;
-    font-style: normal;
-    font-size: 25px;
-    color: #fff;
-}
-
-.button {
-    font-size: 17px;
-    color: #fff;
-    font-family:"Roboto", "Arial", sans-serif;
-    background: #5B6460; 
-    height: 65px;
-    position: absolute; 
-    top: 755px; 
-    padding-top: 25px;    
-    width: 250px;
-    left: 146px; 
-   
-} 
-
-.button2 {
-    font-size: 17px;
-    color:black;
-    background: #E9ECE0; 
-    height: 65px;
-    font-family:"Roboto", "Arial", sans-serif;
-    display: inline-block; 
-    position: absolute; 
-    top: 755px; 
-    padding-top: 25px;
-    width: 150px; 
-    left: 395px; 
-  
-    
-}
-
-.sizephoto {
-    width: 470px;
-    height: 400px;
-}
-
-
-.photo3 { 
-   
-    display: flex;
-    justify-content: space-around;
-    align-self: flex-start;
-    
-    
-}
-  
-.weare {
-    width:100%;
-    height:auto;
-    margin: 0;
-    opacity: 0.90;
-}
-
-
-
-
-.little {
-    width: 70px;
-    height: 80px;
-}
-
-.facilities {
-    display: flex;
-    flex-direction: row;
 }
