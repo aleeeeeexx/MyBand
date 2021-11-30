@@ -11,20 +11,13 @@ p {
     margin: 0;
 }
 
-body {
-    display: block;
-    margin: 0;
-
-
-}
 ul {
     
     display: flex; 
     list-style-type: none;
     gap: 35px;
     font-family:"Roboto", "Arial", sans-serif;
-    
-    
+       
 }
 
 a {
@@ -38,23 +31,22 @@ a {
 }
 
 .img1 {
-    width: 100%;
+    
+    background-image: url("images/1.jpg") center; 
+
 }
-.block{
-    background-image: url("images/1.jpg") center;
-    background-size: 100%;
-}
+
 .find {
     font-size: 70px;
     text-align: right;
-    padding-bottom: 140px;
-
+   
 /*color:white;*/
 }
 
 .book {
 text-align: right;
 font-size: 15px;
+
 
 
 }
