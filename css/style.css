@@ -1,23 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,700&display=swap');
 
-nav {
-
-    font-size: 15px;
-    display: flex;
-    justify-content: space-around;
+/*body
+{
+    box-sizing: border-box;
+    width: 1280px;
+}
+footer {
     
-} 
+    box-sizing: border-box;
+    width: 1280px;
+}*/
 
 p {
     margin: 0;
 }
 
-ul {
-    
-    display: flex; 
+ul {   
+    width: 800px;
+    height: 36px;
+    margin-left: 300px;
+    margin-top: -40px;  
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute; 
     list-style-type: none;
-    gap: 35px;
+    gap: 10px;
     font-family:"Roboto", "Arial", sans-serif;
-       
+    font-size: 15px;
+    font-weight: 10;
+    
 }
 
 a {
@@ -31,22 +43,673 @@ a {
 }
 
 .img1 {
-    
-    background-image: url("images/1.jpg") center; 
-
+    box-sizing: border-box;
+    width: auto;
+    height: 750px;
+    margin-top: 30px;
 }
 
 .find {
+    box-sizing: border-box;
+    width: 893px;
+    height: 96px;
+    position: absolute;
     font-size: 70px;
-    text-align: right;
-   
-/*color:white;*/
+    font-weight: 200;
+    margin-top: -630px;
+    margin-left: 700px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.come {
+    box-sizing: border-box;
+    width: 893px;
+    height: 96px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -530px;
+    margin-left: 1000px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
-.book {
-text-align: right;
-font-size: 15px;
+.marijager {
+    box-sizing: border-box;
+    width: 893px;
+    height: 96px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -500px;
+    margin-left: 1038px;
+    font-family: 'Open Sans', sans-serif;
+    color: white; 
+
+}
+
+
+.booknow {
+    box-sizing: border-box;
+    position: absolute; 
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: -70px;
+    margin-left: 110px;
+    background: #5B6460;
+    height: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    }
+
+    .book {
+        box-sizing: border-box;
+        position: absolute; 
+        font-size: 18px;
+        font-weight: 10;
+        margin-top: -45px;
+        margin-left: 1300px;
+        background: #5B6460;
+        height: 50px;
+        width: 170px;
+        padding-right: 20px;
+        padding-left: 38px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Open Sans', sans-serif;
+        color: white; 
+}
+
+.from {
+    box-sizing: border-box;
+    position: absolute; 
+    font-size: 12px;
+    font-weight: 10;
+    margin-top: -70px;
+    margin-left: 370px;
+    background: #E9ECE0;
+    height: 100px;
+    width: 150px;
+    padding-right: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.price {
+
+    box-sizing: border-box;
+    position: absolute; 
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.pernight {
+    box-sizing: border-box;
+    position: absolute; 
+    font-size: 12px;
+    font-weight: 10;   
+    padding-left: 30px;  
+   padding-top: 25px; 
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+
+}
+
+.img2 {
+
+    box-sizing: border-box;
+    width: 1500px;
+    padding-left: 750px;
+    margin-top: -220px;
+    margin-bottom: 100px;
+}
+
+.thecabines {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 32px;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 600px;
+    height: 196px;
+
+    margin-top: 124px;
+    margin-left: 77px;
+
+    color: #5B6460;  
+
+}
+
+.threeimg {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    width: 1200px;
+    margin-left: 160px;
+    gap:50px;
+    height: 400px;
+
+}
+
+.img3 {
+    box-sizing: border-box;
+    width: auto;
+    height: 700px;
+    
+}
+
+.theforest {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 893px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 900px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    padding-top: 90px;
+    color: #5B6460; 
+    
+}
+
+.theforesth {
+    font-size: 60px;
+    font-weight: 100;
+    color: #5B6460; 
+}
+
+.readmore {
+    font-style: italic;
+    font-weight: lighter;
+position: absolute;
+margin-top: 50px;
+font-family: 'Open Sans', sans-serif;
+color: #5B6460;  
+text-decoration-line: underline;
+}
+
+.wearehere {
+
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 300px;
+}
+.facil {
+    background: #5B6460; 
+    width: 1510px;
+    height: 971px;
+    margin-top: -30px;
+    font-family: 'Open Sans', sans-serif;
+    color: white; 
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.facil2 {
+    font-size: 50px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 700px;
+    padding-top: 90px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.first {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 800px;
+    height: 250px;
+   padding-top: 330px;
+   padding-left: 250px;
+   gap: 35px;
+
+}
+.foto4 {
+
+    width: 80px;
+    height: 130px;
+
+}
+
+.foto5 {
+
+    width: 130px;
+    height: 130px;
+
+}
+
+.foto6 {
+
+    width: 80px;
+    height: 160px;
+
+}
+
+.first2 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 800px;
+    height: 300px;
+   padding-top: 330px;
+   padding-left: 550px;
+   gap: 35px;
+
+}
+
+.first3 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 250px;
+   padding-top: 330px;
+   padding-left: 850px;
+   gap: 35px;
+
+}
+
+.first4 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1500px;
+    height: 250px;
+   padding-top: 330px;
+   padding-left: 1150px;
+   gap: 35px;
+
+}
+
+.first1 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 250px;
+   padding-top: 530px;
+   padding-left: 250px;
+   gap: 35px;
+
+}
+
+.first22 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 300px;
+   padding-top: 530px;
+   padding-left: 550px;
+   gap: 35px;
+
+}
+
+.first33 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 250px;
+   padding-top: 530px;
+   padding-left: 850px;
+   gap: 35px;
+
+}
+
+.first44 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 250px;
+   padding-top: 530px;
+   padding-left: 1150px;
+   gap: 35px;
+
+}
+
+.first11 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 250px;
+   padding-top: 730px;
+   padding-left: 250px;
+   gap: 35px;
+
+}
+
+.first222 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 300px;
+   padding-top: 730px;
+   padding-left: 550px;
+   gap: 35px;
+
+}
+
+.first333 {
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    width: 1000px;
+    height: 250px;
+   padding-top: 730px;
+   padding-left: 850px;
+   gap: 35px;
+
+}
+
+.first444 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    justify-content: space-around; 
+    
+    height: 250px;
+   padding-top: 730px;
+   padding-left: 1150px;
+   gap: 35px;
+
+}
+
+.img4 {
+
+    width: 880px;
+    height: 600px;
+}
+
+.img5 {
+    height: 600px;
+    width: 760px;
+    padding-left: 750px;
+    margin-top: -605px;
+    margin-bottom: 100px;
+    
+}
+ 
+.img6 {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 670px;
+    font-size: 30px;
+    background-color: #E9ECE0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    
+}
 
 
 
+.stay {
+
+font-size: 35px;
+padding-bottom: 70px;
+padding-left: 130px;;
+font-weight: 500;
+font-family: 'Open Sans', sans-serif;
+color: #5B6460;  
+
+}
+
+.vest {
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-left: 130px;;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+     
+    
+
+}
+
+.contacts {
+    width: 50px;
+    height: 50px;
+
+}
+
+.threecontacts {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    width: 300px;
+    margin-left: 100px;
+margin-top: 70px;
+    
+}
+
+.contactss{
+
+    font-size: 20px;
+    padding-left: 130px;;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+     
+}
+ .img7 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 1350px;
+    height: 180px;
+    padding-left: 950px;
+    margin-top: -420px;
+   
+    
+ } 
+
+.bookahut {
+
+    box-sizing: border-box;
+   position: absolute;
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: -250px;
+    width: 300px;
+    margin-left: 950px;
+    background: #5B6460;
+    height: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.from1 {
+box-sizing: border-box;
+position: absolute; 
+font-size: 12px;
+font-weight: 10;
+margin-top: -250px;
+margin-left: 1200px;
+background: #E9ECE0;
+height: 100px;
+width: 150px;
+padding-right: 50px;
+padding-left: 30px;
+padding-top: 20px;
+font-family: 'Open Sans', sans-serif;
+color: black;
+}
+
+.price1 {
+
+box-sizing: border-box;
+position: absolute; 
+font-size: 17px;
+font-weight: 500;
+padding-left: 10px;
+font-family: 'Open Sans', sans-serif;
+color: black;
+}
+
+.pernight1 {
+box-sizing: border-box;
+position: absolute; 
+font-size: 12px;
+font-weight: 10;   
+padding-left: 30px;  
+padding-top: 25px; 
+font-family: 'Open Sans', sans-serif;
+color: black;
+
+} 
+
+.end {
+
+    background: #5B6460; 
+    width: 1510px;
+    height: 477px;
+
+}
+
+.img8 {
+
+    width: 50px;
+    height: 30px;
+}
+
+.newsletter {
+
+    font-size: 18px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 150px;;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    color: white;  
+       
+}
+
+.dop {
+
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+justify-content: space-around; 
+margin-left: 750px;
+width: 700px;
+
+font-family: 'Open Sans', sans-serif;
+color: white;  
+    
+
+}
+
+.fourcontacts {
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+justify-content: space-around;
+margin-bottom: 100px;
+width: 500px;
+margin-left: 850px;
+margin-top: -10px;
+    
+}
+
+.theglass {
+    box-sizing: border-box;
+position:absolute ;
+font-size: 16px;
+font-weight: lighter;
+font-family: 'Open Sans', sans-serif;
+padding-top: 5px;
+padding-left: 150px;
+color: white;
+
+}
+
+.signup {
+    box-sizing: border-box;
+position: absolute;
+font-size: 16px;
+font-weight: lighter;
+font-family: 'Open Sans', sans-serif;
+padding-top: 10px;
+padding-left: 150px;
+margin-top: -20px;
+color: white;
+}
+
+.proc {
+    box-sizing: border-box;
+position: absolute;
+font-size: 16px;
+font-weight: lighter;
+font-family: 'Open Sans', sans-serif;
+padding-left: 150px;
+margin-top: 10px;
+color: white;
+}
+
+form {
+    box-sizing: border-box;
+position: absolute;
+padding-left: 150px;
+ margin-top: -50px;
+color: white;
 }
