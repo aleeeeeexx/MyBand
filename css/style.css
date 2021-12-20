@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,700&display=swap');
-
-/*body
-{
-    box-sizing: border-box;
-    width: 1280px;
+body{ 
+    width: 1500px;
+    background-image: #c7b38b element('images/The Forest.jpg');
 }
-footer {
-    
-    box-sizing: border-box;
-    width: 1280px;
-}*/
-
 p {
     margin: 0;
 }
@@ -23,18 +15,19 @@ ul {
     margin-right: 140px;
     display: flex;
     justify-content: space-around;
-    position: absolute; 
     list-style-type: none;
     gap: 10px;
     font-family:"Roboto", "Arial", sans-serif;
     font-size: 15px;
     font-weight: 10;
-    
+   
 }
-
-a {
-    text-decoration: none; 
+.lih {
     color: black;
+}
+ a { 
+    text-decoration: none; 
+  /* color: black; */
 }
 
 .logo {
@@ -44,16 +37,14 @@ a {
 
 .img1 {
     box-sizing: border-box;
-    width: auto;
+    /* width: auto; */
     height: 750px;
-    margin-top: 30px;
+    
 }
 
 .find {
     box-sizing: border-box;
-    width: 893px;
-    height: 96px;
-    position: absolute;
+    width: 793px;
     font-size: 70px;
     font-weight: 200;
     margin-top: -630px;
@@ -63,65 +54,63 @@ a {
 }
 .come {
     box-sizing: border-box;
-    width: 893px;
-    height: 96px;
-    position: absolute;
+    display: flex; 
+    width: 1393px;
     font-size: 20px;
     font-weight: 100;
-    margin-top: -530px;
-    margin-left: 1000px;
     font-family: 'Open Sans', sans-serif;
     color: white;
+    padding-left: 1000px ;
+   
 }
 
 .marijager {
+    display: flex;
     box-sizing: border-box;
-    width: 893px;
-    height: 96px;
-    position: absolute;
     font-size: 20px;
     font-weight: 100;
-    margin-top: -500px;
-    margin-left: 1038px;
     font-family: 'Open Sans', sans-serif;
     color: white; 
-
+    padding-left: 1020px ;
+    margin-top: 10px;
 }
 
 
 .booknow {
     box-sizing: border-box;
+    display: flex;
     position: absolute; 
     font-size: 20px;
-    font-weight: 10;
-    margin-top: -70px;
-    margin-left: 110px;
+    font-weight: 100;
+     margin-top: 400px; 
+     margin-left: 110px; 
+    margin-bottom: 40px;
     background: #5B6460;
     height: 100px;
-    padding-right: 80px;
-    padding-left: 80px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+     padding-right: 80px; 
+     padding-left: 80px; 
+     padding-top: 30px; 
+     padding-bottom: 40px; 
     font-family: 'Open Sans', sans-serif;
     color: white;
     }
 
     .book {
-        box-sizing: border-box;
-        position: absolute; 
-        font-size: 18px;
-        font-weight: 10;
-        margin-top: -45px;
-        margin-left: 1300px;
-        background: #5B6460;
-        height: 50px;
-        width: 170px;
-        padding-right: 20px;
-        padding-left: 38px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-family: 'Open Sans', sans-serif;
-        color: white; 
+    box-sizing: border-box;
+    display: flex;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 1300px;
+    margin-top: -70px;
+    background: #5B6460;
+    width: 170px;
+    padding-right: 20px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white; 
+    margin-bottom: 40px;
 }
 
 .from {
@@ -129,22 +118,20 @@ a {
     position: absolute; 
     font-size: 12px;
     font-weight: 10;
-    margin-top: -70px;
-    margin-left: 370px;
+    margin-left: 375px;
+    margin-top: 400px;
     background: #E9ECE0;
     height: 100px;
     width: 150px;
     padding-right: 50px;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: 'Open Sans', sans-serif;
     color: black;
 }
 
 .price {
-
     box-sizing: border-box;
-    position: absolute; 
     font-size: 17px;
     font-weight: 500;
     padding-left: 10px;
@@ -153,15 +140,14 @@ a {
 }
 
 .pernight {
-    box-sizing: border-box;
-    position: absolute; 
+    box-sizing: border-box; 
     font-size: 12px;
     font-weight: 10;   
     padding-left: 30px;  
-   padding-top: 25px; 
+    padding-top: -30px; 
     font-family: 'Open Sans', sans-serif;
     color: black;
-
+    width: 100px;
 }
 
 .img2 {
@@ -174,101 +160,102 @@ a {
 }
 
 .thecabines {
+   
+    box-sizing: border-box; 
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 18px;
     line-height: 32px;
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 600px;
-    height: 196px;
-
-    margin-top: 124px;
-    margin-left: 77px;
-
+    padding-left: 50px ;
+    height: 96px;
+    padding-top: 700px;
+    padding-bottom: 150px;
     color: #5B6460;  
 
 }
+.readmore1 {
+    font-style: italic;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #5B6460;  
+    text-decoration-line: underline;
+    padding-top:40px ;
+    
+    }
 
-.threeimg {
+.threeimg { 
+
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
     justify-content: space-around;
-    margin-bottom: 100px;
-    width: 1200px;
-    margin-left: 160px;
+   
     gap:50px;
     height: 400px;
 
 }
 
-.img3 {
-    box-sizing: border-box;
-    width: auto;
-    height: 700px;
-    
-}
 
 .theforest {
 
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    width: 893px;
-    position: absolute;
+    height: 250px;
     font-size: 20px;
-    font-weight: 200;
-    margin-left: 900px;
+    font-weight: 200; 
     font-family: 'Open Sans', sans-serif;
     line-height: 32px;
-    padding-top: 90px;
+    padding-left:850px ;
     color: #5B6460; 
+   
     
+    
+}
+.img3 {
+    box-sizing: border-box;
+    width: 1500px;
+    height: 750px;
+    padding-top: 100px;
+    background-image: #c7b38b element('images/The Forest.jpg');
 }
 
 .theforesth {
-    font-size: 60px;
+    display: flex;
+    width: 400px;
+     margin-top: -550px; 
+    font-size: 50px;
     font-weight: 100;
     color: #5B6460; 
+    padding-left:850px ;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .readmore {
-    font-style: italic;
-    font-weight: lighter;
-position: absolute;
-margin-top: 50px;
+font-style: italic;
+display: flex;
 font-family: 'Open Sans', sans-serif;
 color: #5B6460;  
 text-decoration-line: underline;
+padding-top:40px ;
+padding-left:850px ;
 }
 
-.wearehere {
 
-    position: absolute;
-    margin-top: -350px;
-    margin-left: 300px;
-}
 .facil {
-    background: #5B6460; 
-    width: 1510px;
-    height: 971px;
-    margin-top: -30px;
-    font-family: 'Open Sans', sans-serif;
-    color: white; 
-    font-size: 15px;
-    font-weight: lighter;
+background: #5B6460; 
+height: 971px;
+
+font-family: 'Open Sans', sans-serif;
+color: white; 
+font-size: 15px;
+font-weight: lighter;
 
 }
 
 .facil2 {
-    font-size: 50px;
-    position: absolute;
+    font-size: 40px;
     margin-top: 50px;
-    margin-left: 700px;
-    padding-top: 90px;
+    margin-left: 700px; 
+    padding-top: 150px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
@@ -279,14 +266,11 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 800px;
-    height: 250px;
-   padding-top: 330px;
-   padding-left: 250px;
-   gap: 35px;
-
+    height: 200px;
+    width: 400px;
+    padding-left: 250px;
+    gap: 10px;
+    margin: 0px;
 }
 .foto4 {
 
@@ -297,7 +281,7 @@ text-decoration-line: underline;
 
 .foto5 {
 
-    width: 130px;
+    width: 120px;
     height: 130px;
 
 }
@@ -309,18 +293,23 @@ text-decoration-line: underline;
 
 }
 
+.foto7 {
+
+    width: 100px;
+    height: 130px;  
+}
+
 .first2 {
 
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 800px;
-    height: 300px;
-   padding-top: 330px;
+    width: 650px;
+    height: 200px;
+    margin-top: -200px;
    padding-left: 550px;
-   gap: 35px;
+   gap: 12px;
+   text-align: center;
 
 }
 
@@ -329,13 +318,11 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 1000px;
-    height: 250px;
-   padding-top: 330px;
+    width: 1050px;
+    height: 200px;
+   margin-top: -200px; 
    padding-left: 850px;
-   gap: 35px;
+   gap: 10px;
 
 }
 
@@ -343,28 +330,24 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 1500px;
-    height: 250px;
-   padding-top: 330px;
-   padding-left: 1150px;
-   gap: 35px;
-
+    width: 1300px;
+    height: 200px;
+    margin-top: -200px; 
+   padding-left: 1170px;
+   gap: 10px;
+   text-align: center;
 }
 
 .first1 {
-
+    text-align: center;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 1000px;
+    width: 350px;
     height: 250px;
-   padding-top: 530px;
-   padding-left: 250px;
-   gap: 35px;
+    padding-left: 230px;
+    gap: 10px;
+    margin-top: 20px; 
 
 }
 
@@ -373,13 +356,11 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 1000px;
+    width: 800px;
     height: 300px;
-   padding-top: 530px;
+    margin-top: -250px; 
    padding-left: 550px;
-   gap: 35px;
+   gap: 10px;
 
 }
 
@@ -388,13 +369,11 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
     width: 1000px;
     height: 250px;
-   padding-top: 530px;
+    margin-top: -300px;
    padding-left: 850px;
-   gap: 35px;
+   gap: 10px;
 
 }
 
@@ -402,13 +381,12 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 1000px;
+    width: 1300px;
     height: 250px;
-   padding-top: 530px;
+    margin-top: -250px;
    padding-left: 1150px;
-   gap: 35px;
+   gap: 10px;
+   text-align: center;
 
 }
 
@@ -417,14 +395,11 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 1000px;
+    width: 350px;
     height: 250px;
-   padding-top: 730px;
-   padding-left: 250px;
-   gap: 35px;
-
+   padding-left: 230px;
+   gap: 10px;
+text-align: center;
 }
 
 .first222 {
@@ -432,13 +407,11 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    width: 1000px;
+    width: 800px;
     height: 300px;
-   padding-top: 730px;
    padding-left: 550px;
-   gap: 35px;
+   margin-top: -250px;
+   gap: 10px;
 
 }
 
@@ -447,13 +420,11 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
     width: 1000px;
     height: 250px;
-   padding-top: 730px;
+    margin-top: -300px;
    padding-left: 850px;
-   gap: 35px;
+   gap: 10px;
 
 }
 
@@ -461,50 +432,35 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    position: absolute;
-    justify-content: space-around; 
-    
     height: 250px;
-   padding-top: 730px;
+    margin-top: -250px;
    padding-left: 1150px;
-   gap: 35px;
+   gap: 10px;
 
 }
 
 .img4 {
-
+float: left;
     width: 880px;
     height: 600px;
+    
 }
 
 .img5 {
     height: 600px;
-    width: 760px;
+    width: 750px;
     padding-left: 750px;
-    margin-top: -605px;
-    margin-bottom: 100px;
+   margin-top: -600px; 
+   margin-bottom: 100px;
     
 }
  
-.img6 {
-    position: absolute;
-    margin-top: -450px;
-    margin-left: 670px;
-    font-size: 30px;
-    background-color: #E9ECE0;
-    border-radius: 500%;
-    width: 200px;
-    height: 200px; 
-    
-}
-
-
 
 .stay {
 
 font-size: 35px;
-padding-bottom: 70px;
-padding-left: 130px;;
+ padding-bottom: 50px; 
+padding-left: 130px;; 
 font-weight: 500;
 font-family: 'Open Sans', sans-serif;
 color: #5B6460;  
@@ -533,11 +489,11 @@ color: #5B6460;
     flex-direction: row;
     box-sizing: border-box;
     justify-content: space-around;
-    margin-bottom: 150px;
-    width: 300px;
-    margin-left: 100px;
+    margin-bottom: 250px;
+    width: 200px;
+    padding-left: 250px;
     padding-top: 20px;
-  
+  gap: 45px;
     
 }
 
@@ -560,72 +516,65 @@ color: #5B6460;
 
 }
  .img7 {
-    position: absolute;
-    box-sizing: border-box;
-    width: 1350px;
-    height: 180px;
+     display: flex;
+     width: 350px; 
+    height: 150px;
     padding-left: 950px;
-    margin-top: -420px;
+     margin-top: -550px;  
    
-    
  } 
 
 .bookahut {
-
+    display: flex;
     box-sizing: border-box;
-   position: absolute;
     font-size: 20px;
     font-weight: 10;
-    margin-top: -250px;
-    width: 300px;
+    width: 200px;
     margin-left: 950px;
     background: #5B6460;
-    height: 100px;
-    padding-right: 80px;
-    padding-left: 80px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-right: 20px; 
+    padding-left: 40px;
+    padding-top: 30px; 
+     padding-bottom: 30px; 
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
-.from1 {
+.from1 { 
+display: flex; 
 box-sizing: border-box;
-position: absolute; 
 font-size: 12px;
 font-weight: 10;
-margin-top: -250px;
-margin-left: 1200px;
+margin-top: -80px; 
+margin-bottom: 100px;
+ margin-left: 1150px; 
 background: #E9ECE0;
-height: 100px;
 width: 150px;
-padding-right: 50px;
-padding-left: 30px;
-padding-top: 20px;
+padding-right: 10px;
+padding-left: 18px;
+padding-top: 14px;
+padding-bottom: 14px;
 font-family: 'Open Sans', sans-serif;
 color: black;
 }
 
 .price1 {
-
-box-sizing: border-box;
-position: absolute; 
-font-size: 17px;
+ display: flex;
+font-size: 15px;
 font-weight: 500;
-padding-left: 10px;
 font-family: 'Open Sans', sans-serif;
 color: black;
+ margin-top: 15px;   
 }
 
 .pernight1 {
-box-sizing: border-box;
-position: absolute; 
+ display: flex; 
 font-size: 12px;
 font-weight: 10;   
-padding-left: 30px;  
-padding-top: 25px; 
+ padding-top: 10px;  
 font-family: 'Open Sans', sans-serif;
 color: black;
+ margin-top: 28px;  
 
 } 
 
@@ -676,11 +625,19 @@ color: black;
     padding-bottom: 90px;
 }
 
-form {
+.form1 {
+    font-family: 'Open Sans', sans-serif;
 padding-left: 150px;
 padding-bottom: 10px;
 padding-top: 50px;
 color: white;
+ font-style: oblique;
+}
+
+.input1 {
+    background: transparent; 
+    border: none;
+    border-bottom: 1px solid #fff;
 }
 
 .dop {
@@ -691,12 +648,16 @@ justify-content: space-around;
 padding-left: 750px;
 width: 700px;
 margin-top: -70px;
-font-family: 'Open Sans', sans-serif;
 
+
+}
+.terms {
+font-family: 'Open Sans', sans-serif;
+color:white;
 }
 
 .fourcontacts {
-    box-sizing: border-box;
+box-sizing: border-box;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
