@@ -1,12 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,700&display=swap');
+
+
+
+:root {
+    --colortxt: white;
+    --colortxt2:black;
+    --but1:#E9ECE0;
+    --but2: #5B6460;
+}
 body{ 
     width: 1500px;
-    background-image: #c7b38b element('images/The Forest.jpg');
+    font-family: 'Open Sans', sans-serif;
 }
 p {
     margin: 0;
+
 }
 
+p::selection {
+    color: red;
+    background-color: black;
+}
+
+
+
+.visually-hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+}
 ul {   
     width: 800px;
     height: 36px;
@@ -17,17 +40,21 @@ ul {
     justify-content: space-around;
     list-style-type: none;
     gap: 10px;
-    font-family:"Roboto", "Arial", sans-serif;
     font-size: 15px;
     font-weight: 10;
    
 }
 .lih {
-    color: black;
+    color: var(--colortxt2);
 }
+
+.lih:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
  a { 
     text-decoration: none; 
-  /* color: black; */
 }
 
 .logo {
@@ -37,20 +64,19 @@ ul {
 
 .img1 {
     box-sizing: border-box;
-    /* width: auto; */
     height: 750px;
     
 }
 
 .find {
+    display: flex;
     box-sizing: border-box;
     width: 793px;
     font-size: 70px;
     font-weight: 200;
-    margin-top: -630px;
+     margin-top: -630px;  
     margin-left: 700px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: var(--colortxt);
 }
 .come {
     box-sizing: border-box;
@@ -58,8 +84,7 @@ ul {
     width: 1393px;
     font-size: 20px;
     font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: var(--colortxt);
     padding-left: 1000px ;
    
 }
@@ -69,8 +94,7 @@ ul {
     box-sizing: border-box;
     font-size: 20px;
     font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    color: white; 
+    color: var(--colortxt); 
     padding-left: 1020px ;
     margin-top: 10px;
 }
@@ -85,14 +109,13 @@ ul {
      margin-top: 400px; 
      margin-left: 110px; 
     margin-bottom: 40px;
-    background: #5B6460;
+    background: var(--but2);
     height: 100px;
      padding-right: 80px; 
      padding-left: 80px; 
      padding-top: 30px; 
      padding-bottom: 40px; 
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+    color:var(--colortxt);
     }
 
     .book {
@@ -102,14 +125,13 @@ ul {
     font-weight: 100;
     margin-left: 1300px;
     margin-top: -70px;
-    background: #5B6460;
+    background: var(--but2);
     width: 170px;
     padding-right: 20px;
     padding-left: 35px;
     padding-bottom: 25px;
     padding-top: 25px;
-    font-family: 'Open Sans', sans-serif;
-    color: white; 
+    color:var(--colortxt); 
     margin-bottom: 40px;
 }
 
@@ -120,14 +142,13 @@ ul {
     font-weight: 10;
     margin-left: 375px;
     margin-top: 400px;
-    background: #E9ECE0;
+    background:var(--but1);
     height: 100px;
     width: 150px;
     padding-right: 50px;
     padding-left: 30px;
     padding-top: 30px;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: var(--colortxt2);
 }
 
 .price {
@@ -135,8 +156,7 @@ ul {
     font-size: 17px;
     font-weight: 500;
     padding-left: 10px;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: var(--colortxt2);
 }
 
 .pernight {
@@ -145,39 +165,36 @@ ul {
     font-weight: 10;   
     padding-left: 30px;  
     padding-top: -30px; 
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: var(--colortxt2);
     width: 100px;
 }
 
 .img2 {
-
-    box-sizing: border-box;
-    width: 1500px;
-    padding-left: 750px;
-    margin-top: -220px;
-    margin-bottom: 100px;
+    padding-top: 600px;  
+    width: 700px;
+    height: 400px;
+    padding-bottom: 100px;
 }
 
 .thecabines {
-   
-    box-sizing: border-box; 
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 32px;
-    padding-left: 50px ;
-    height: 96px;
-    padding-top: 700px;
-    padding-bottom: 150px;
-    color: #5B6460;  
+    display: flex; 
+    flex-direction: column; 
+    font-weight: 100; 
+    font-size: 18px; 
+    line-height: 32px; 
+     padding-left: 80px ; 
+     padding-top: 600px;  
+    color: var(--but2);  
 
+}
+.thec {
+    display: flex;
+    flex-direction: row;
 }
 .readmore1 {
     font-style: italic;
     display: flex;
-    font-family: 'Open Sans', sans-serif;
-    color: #5B6460;  
+    color: var(--but2);  
     text-decoration-line: underline;
     padding-top:40px ;
     
@@ -189,7 +206,6 @@ ul {
     flex-direction: row;
     box-sizing: border-box;
     justify-content: space-around;
-   
     gap:50px;
     height: 400px;
 
@@ -198,284 +214,115 @@ ul {
 
 .theforest {
 
-    height: 250px;
-    font-size: 20px;
-    font-weight: 200; 
-    font-family: 'Open Sans', sans-serif;
-    line-height: 32px;
-    padding-left:850px ;
-    color: #5B6460; 
-   
-    
-    
+    display: flex; 
+    flex-direction: column; 
+    box-sizing: border-box;
+    position: absolute;
+    font-weight: 100; 
+    font-size: 18px; 
+    line-height: 32px; 
+    margin-left: 750px ; 
+    padding-bottom: 128px; 
+    padding-top: 150px;
+    color: var(--but2);  
+    background-color: var(--but1) ;
+    margin-top: 100px;
+    padding-left: 180px;
+    padding-right: 50px;
+    width: 750px;
 }
 .img3 {
-    box-sizing: border-box;
-    width: 1500px;
-    height: 750px;
+
     padding-top: 100px;
-    background-image: #c7b38b element('images/The Forest.jpg');
 }
 
 .theforesth {
     display: flex;
-    width: 400px;
-     margin-top: -550px; 
-    font-size: 50px;
-    font-weight: 100;
-    color: #5B6460; 
-    padding-left:850px ;
-    font-family: 'Open Sans', sans-serif;
-    
+    flex-direction: row;    
 }
 
 .readmore {
 font-style: italic;
 display: flex;
-font-family: 'Open Sans', sans-serif;
-color: #5B6460;  
+color: var(--but2);  
 text-decoration-line: underline;
 padding-top:40px ;
-padding-left:850px ;
+/* padding-left:850px ; */
 }
 
-
+.glav {
+background:var(--but2); 
+color:var(--colortxt); 
+padding-bottom: 100px;
+}
 .facil {
-background: #5B6460; 
-height: 971px;
 
-font-family: 'Open Sans', sans-serif;
-color: white; 
 font-size: 15px;
-font-weight: lighter;
+max-width: 1500px;
+display: flex;
+flex-wrap: wrap;
+gap: 15px; 
+padding-top: 100px;
+padding-left: 100px;
 
 }
 
 .facil2 {
-    font-size: 40px;
-    margin-top: 50px;
-    margin-left: 700px; 
-    padding-top: 150px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+ width: 10%; 
+ padding-left: 150px; 
+ text-align: center;
+ font-weight: lighter;
+
 }
 
-.first {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    height: 200px;
-    width: 400px;
-    padding-left: 250px;
-    gap: 10px;
-    margin: 0px;
+.zag {
+    padding-left: 700px;
+    font-weight: lighter;
+     padding-top: 50px; 
+     font-size: 40px;
 }
+
 .foto4 {
 
-    width: 80px;
-    height: 130px;
-
-}
-
-.foto5 {
-
-    width: 120px;
-    height: 130px;
-
-}
-
-.foto6 {
-
-    width: 80px;
-    height: 160px;
-
-}
-
-.foto7 {
-
     width: 100px;
-    height: 130px;  
-}
-
-.first2 {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 650px;
-    height: 200px;
-    margin-top: -200px;
-   padding-left: 550px;
-   gap: 12px;
-   text-align: center;
-
-}
-
-.first3 {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 1050px;
-    height: 200px;
-   margin-top: -200px; 
-   padding-left: 850px;
-   gap: 10px;
-
-}
-
-.first4 {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 1300px;
-    height: 200px;
-    margin-top: -200px; 
-   padding-left: 1170px;
-   gap: 10px;
-   text-align: center;
-}
-
-.first1 {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 350px;
-    height: 250px;
-    padding-left: 230px;
-    gap: 10px;
-    margin-top: 20px; 
-
-}
-
-.first22 {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 800px;
-    height: 300px;
-    margin-top: -250px; 
-   padding-left: 550px;
-   gap: 10px;
-
-}
-
-.first33 {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 1000px;
-    height: 250px;
-    margin-top: -300px;
-   padding-left: 850px;
-   gap: 10px;
-
-}
-
-.first44 {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 1300px;
-    height: 250px;
-    margin-top: -250px;
-   padding-left: 1150px;
-   gap: 10px;
-   text-align: center;
-
-}
-
-.first11 {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 350px;
-    height: 250px;
-   padding-left: 230px;
-   gap: 10px;
-text-align: center;
-}
-
-.first222 {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 800px;
-    height: 300px;
-   padding-left: 550px;
-   margin-top: -250px;
-   gap: 10px;
-
-}
-
-.first333 {
-
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 1000px;
-    height: 250px;
-    margin-top: -300px;
-   padding-left: 850px;
-   gap: 10px;
-
-}
-
-.first444 {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    height: 250px;
-    margin-top: -250px;
-   padding-left: 1150px;
-   gap: 10px;
-
+    height: 130px;
 }
 
 .img4 {
-float: left;
-    width: 880px;
-    height: 600px;
-    
-}
-
-.img5 {
-    height: 600px;
-    width: 750px;
-    padding-left: 750px;
-   margin-top: -600px; 
-   margin-bottom: 100px;
-    
+display: flex;
+  flex-direction: row;
+    width: 1500px;
+    padding-bottom: 100px ;
 }
  
+.img5 {
+width: 750px;
+}
 
+.thestay {
+    display: flex;
+  flex-direction: row;
+}
+
+.thestayob {
+    width: 50%;
+    padding-left: 130px;
+color: var(--but2);
+ }
 .stay {
 
 font-size: 35px;
- padding-bottom: 50px; 
-padding-left: 130px;; 
+ padding-bottom: 50px;  
+/* padding-left: 130px;;  */
 font-weight: 500;
-font-family: 'Open Sans', sans-serif;
-color: #5B6460;  
+ 
 
 }
 
 .vest {
     font-size: 20px;
     padding-bottom: 40px;
-    padding-left: 130px;;
-    font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-     
-    
-
+    font-weight: lighter;   
 }
 
 .contacts {
@@ -487,40 +334,30 @@ color: #5B6460;
 .threecontacts {
     display: flex;
     flex-direction: row;
-    box-sizing: border-box;
-    justify-content: space-around;
-    margin-bottom: 250px;
+    justify-content: space-between; 
     width: 200px;
-    padding-left: 250px;
-    padding-top: 20px;
+    padding-top: 40px;
   gap: 45px;
     
 }
 
 .contactss{
-
     font-size: 20px;
-    padding-left: 130px;;
-    
-    font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-     
+    font-weight: lighter;    
+    color:var(--but2);
 }
 
 .contactsss {
     font-size: 20px;
-    padding-left: 130px;;
+    color:var(--but2);
    padding-bottom: 50px; 
     font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-
 }
  .img7 {
-     display: flex;
      width: 350px; 
     height: 150px;
-    padding-left: 950px;
-     margin-top: -550px;  
+    padding-left: 250px;
+
    
  } 
 
@@ -530,14 +367,13 @@ color: #5B6460;
     font-size: 20px;
     font-weight: 10;
     width: 200px;
-    margin-left: 950px;
-    background: #5B6460;
+     margin-left: 250px; 
+    background:var(--but2);
     padding-right: 20px; 
     padding-left: 40px;
     padding-top: 30px; 
      padding-bottom: 30px; 
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: var(--colortxt);
 }
 
 .from1 { 
@@ -545,25 +381,23 @@ display: flex;
 box-sizing: border-box;
 font-size: 12px;
 font-weight: 10;
-margin-top: -80px; 
-margin-bottom: 100px;
- margin-left: 1150px; 
-background: #E9ECE0;
+margin-top: -80px;   
+margin-bottom: 180px;
+ margin-left: 450px; 
+background:var(--but1);
 width: 150px;
 padding-right: 10px;
 padding-left: 18px;
 padding-top: 14px;
 padding-bottom: 14px;
-font-family: 'Open Sans', sans-serif;
-color: black;
+color:var(--colortxt2);
 }
 
 .price1 {
  display: flex;
 font-size: 15px;
 font-weight: 500;
-font-family: 'Open Sans', sans-serif;
-color: black;
+color: var(--colortxt2);
  margin-top: 15px;   
 }
 
@@ -572,15 +406,14 @@ color: black;
 font-size: 12px;
 font-weight: 10;   
  padding-top: 10px;  
-font-family: 'Open Sans', sans-serif;
-color: black;
+color: var(--colortxt2);
  margin-top: 28px;  
 
 } 
 
 .end {
 
-    background: #5B6460; 
+    background: var(--but2); 
     width: 1510px;
     height: 477px;
 
@@ -599,8 +432,7 @@ color: black;
     padding-bottom: 50px;
     padding-left: 150px;;
     font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-    color: white;  
+    color: var(--colortxt);  
        
 }
 
@@ -612,32 +444,29 @@ color: black;
     font-size: 17px;
     padding-left: 150px;;
     font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-    color: white;  
+    color: var(--colortxt);  
 }
 
 .proc {
     font-size: 17px;
     padding-left: 150px;;
     font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-    color: white;  
+    color: var(--colortxt);  
     padding-bottom: 90px;
 }
 
 .form1 {
-    font-family: 'Open Sans', sans-serif;
 padding-left: 150px;
 padding-bottom: 10px;
 padding-top: 50px;
-color: white;
+color: var(--colortxt);
  font-style: oblique;
 }
 
 .input1 {
     background: transparent; 
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--colortxt);
 }
 
 .dop {
@@ -652,8 +481,7 @@ margin-top: -70px;
 
 }
 .terms {
-font-family: 'Open Sans', sans-serif;
-color:white;
+color:var(--colortxt);
 }
 
 .fourcontacts {
@@ -675,7 +503,54 @@ margin-top: -200px;
    padding-top: 200px ;
     padding-left: 150px;;
     font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: var(--colortxt);
 
+}
+
+
+.bodyForm
+{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.mainForm
+{
+flex-grow: 1;
+}
+
+.footerForm
+{
+display: flex;
+width: 1280px;
+}
+
+.Formagl
+{
+
+    color: var(--colorosn);
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.FormF
+{
+   display: flex;
+   flex-direction: column;
+   width: 900px;
+    margin: 100px;
+}
+
+.batForm
+{
+    background-color: var(--colorosn);
+    color: var(--but2);
+   
+    border: none;
+}
+
+.zvet
+{
+    background-color: #FFC0CB;
 }

@@ -5,7 +5,7 @@
        
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="CSS/normalize.css">
-        <body>
+        <body class="bodyForm">
 
             <header >
                 <img src="images/logo.jpg" alt="Logo">
@@ -27,14 +27,57 @@
 
     </head>
 
-    <main>
-        <form>
-            <p>Email <input type="text" name="Name"> </p>
+    <main class="mainForm">
+        <section>
+            <form class="FormF" method="post" name="myform" data-netlify="true">
 
-        </form>
+                <fieldset>
+                    <legend class="Formagl"> Личная информация </legend>
+                    <label> Имя: <input class="zvet" type="text" name="Имя" placeholder="Имя Пользователя" required>
+                    </label>
+                    <label> Дата Рождения: <input type="date" name="Дата Рождения"></label>
+                    <label> Пол: </label>
+                    <select name="Пол">
+                        <option value="-" selected>-</option>
+                        <option value="М">М</option>
+                        <option value="Ж">Ж</option>
+                    </select>
+
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend class="Formagl"> Контактные Данные </legend>
+                    <p>
+                        <label> Email <input class="zvet" type="email" name="email" placeholder="post@gmail.com"
+                                required></label>
+                        <label> Придумайте пароль <input class="zvet" type="password" name="password"
+                                placeholder="password" required></label>
+                    </p>
+
+                    <label> Контактный номер телефона <input type="tel" name="tel" placeholder="89296556644"></label>
+
+                    <p>
+                        <label> Удобный интервал для связи </label>
+                        <label><input type="checkbox" name="checkbox" value="Утром">Утром</label>
+                        <label><input type="checkbox" name="checkbox" value="Днем">Днем</label>
+                        <label><input type="checkbox" name="checkbox" value="Вечером">Вечером</label>
+                    </p>
+
+                    <button class="batForm click" type="submit"> Отправить </button>
+                    <button class="batForm click" type="reset"> Сбросить </button>
+                </fieldset>
+
+
+            </form>
+
+
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="footerform">
             <section class="end">
                 <p class="newsletter"> Newsletter </p>
                 <div class="dop">
