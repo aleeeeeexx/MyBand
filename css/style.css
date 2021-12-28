@@ -440,7 +440,7 @@ color: var(--colortxt2);
 
 .signup {
    
-
+padding-top: 20px;
     font-size: 17px;
     padding-left: 150px;;
     font-weight: lighter;
@@ -458,7 +458,7 @@ color: var(--colortxt2);
 .form1 {
 padding-left: 150px;
 padding-bottom: 10px;
-padding-top: 50px;
+padding-top: 40px;
 color: var(--colortxt);
  font-style: oblique;
 }
@@ -468,6 +468,15 @@ color: var(--colortxt);
     border: none;
     border-bottom: 1px solid var(--colortxt);
 }
+.butt {
+  
+     background: transparent;  
+    width: 100px; 
+   margin-top: 30px;
+    color: var(--colortxt);
+
+}
+  
 
 .dop {
 
@@ -506,7 +515,6 @@ margin-top: -200px;
     color: var(--colortxt);
 
 }
-
 
 .bodyForm
 {
