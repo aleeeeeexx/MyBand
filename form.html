@@ -5,8 +5,9 @@
         <title>Forma</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="CSS/normalize.css"> 
+        <link rel="stylesheet" href="css/forma.css">
     </head>
-        <body class="bodyForm">
+        <body class="bodyform">
 
             <header >
                 <img src="images/logo.jpg" alt="Logo">
@@ -28,15 +29,15 @@
 
    
 
-    <main class="mainForm">
+    <main class="mainform">
         <section>
-            <form class="FormF" method="post" name="myform" data-netlify="true">
+            <form class="formf" method="post" name="myform" data-netlify="true">
 
-                <fieldset>
-                    <legend class="Formagl"> Личная информация </legend>
+                <fieldset class="label1">
+                    <legend class="formagl"> Личная информация </legend>
                     <label> Имя: <input class="zvet" type="text" name="Имя" placeholder="Имя Пользователя" required>
                     </label>
-                    <label> Дата Рождения: <input type="date" name="Дата Рождения"></label>
+                    <label> Дата Рождения: <input type="date" name="Дата Рождения"> </label>
                     <label> Пол: </label>
                     <select name="Пол">
                         <option value="-" selected>-</option>
@@ -49,28 +50,84 @@
 
                 <fieldset>
 
-                    <legend class="Formagl"> Контактные Данные </legend>
-                    <p>
+                    <legend class="formagl"> Контактные Данные </legend>
+                    <p  class="label1">
                         <label> Email <input class="zvet" type="email" name="email" placeholder="post@gmail.com"
                                 required></label>
                         <label> Придумайте пароль <input class="zvet" type="password" name="password"
                                 placeholder="password" required></label>
                     </p>
 
-                    <label> Контактный номер телефона <input type="tel" name="tel" placeholder="89296556644"></label>
+                   <p  class="label1"><label> Контактный номер телефона <input type="tel" name="tel" placeholder ="89296556644"></label></p> 
 
-                    <p>
+                    <p class="label1">
                         <label> Удобный интервал для связи </label>
-                        <label><input type="checkbox" name="checkbox" value="Утром">Утром</label>
-                        <label><input type="checkbox" name="checkbox" value="Днем">Днем</label>
-                        <label><input type="checkbox" name="checkbox" value="Вечером">Вечером</label>
+                        <label><input type="checkbox" name="morning" value="Утром"> <span class="morn">Утром</span>
+                        </label>
+                        <label><input type="checkbox" name="day" value="Днем"> <span class="afternoon"> Днем </span></label>
+                        <label><input type="checkbox" name="evening" value="Вечером"> <span class="night"> Вечером</span></label>
                     </p>
 
-                    <button class="batForm click" type="submit"> Отправить </button>
-                    <button class="batForm click" type="reset"> Сбросить </button>
+                    <button class="butform" type="submit"> Отправить </button>
+                    <button class="butform butDis" type="reset" disabled> Сбросить </button>
                 </fieldset>
 
 
+            </form>
+
+
+        </section>
+        <section>
+            <form>
+                <dl>
+                    <dt>Псевдоклассы</dt>
+                    <dd>Это селектор, который выбирает элементы, находящиеся в специфическом состоянии,
+                        например, они являются первым элементом своего типа, или на них наведён указатель мыши.
+                    </dd>
+                    <dt>Псевдоэлементы</dt>
+                    <dd>Это ключевое слово, добавляемое к селектору, которое позволяет
+                        стилизовать определённую часть выбранного элемента. </dd>
+                </dl>
+
+                <div class="divCheck">
+                    <div class="divCheck2">
+                        <span class="textform">:Псевдоклассы</span>
+                        <label><input type="checkbox" name="root" value=":root" checked> <span
+                            class="checkedform">:root</span></label>
+                        <label><input type="checkbox" name="link" value=":link"> <span
+                                class="checkedform">:link</span></label> 
+                       <label><input type="checkbox" name="visited" value=":visited"> <span
+                                class="checkedform">:visited</span></label>
+                        <label><input type="checkbox" name="hover" value=":hover" checked> <span
+                                class="checkedform">:hover</span></label>
+                    
+                        <label><input type="checkbox" name="active" value=":active" checked> <span
+                                class="checkedform">:active</span></label>
+                        <label><input type="checkbox" name="focus" value=":focus" checked> <span
+                                class="checkedform">:focus</span></label>
+                    
+                    </div>
+
+                    <div class="divCheck2">
+                        
+                            <span class="textform">::Псевдоэлементы</span>
+                            <label class="childdd"><input type="checkbox" name="first-letter" value="::first-letter" checked> <span
+                                    class="checkedform inn">::first-letter</span></label>
+                            <label class="childdd"><input type="checkbox" name="first-line" value="::firs-line"> <span
+                                    class="checkedform inn">::firs-line</span></label>
+                            <label class="childdd"><input type="checkbox" name="selection" value="::selection" checked> <span
+                                    class="checkedform inn">::selection</span></label>
+                            <label class="childdd"><input type="checkbox" name="before" value="::before" checked> <span
+                                    class="checkedform inn">::before</span></label>
+                            <label class="childdd"><input type="checkbox" name="after" value="::aftere" checked> <span
+                                    class="checkedform inn">::aftere</span></label>
+                            <label class="childdd"><input type="checkbox" name="placeholder" value="::placeholder"> <span
+                                    class="checkedform inn">::placeholder</span></label>
+                       
+                    </div>
+
+
+                </div>
             </form>
 
 

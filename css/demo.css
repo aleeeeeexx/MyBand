@@ -1,0 +1,148 @@
+.rasp
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gradient1
+{
+   
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to top left, powderblue, pink);  
+    margin-right:50px ;
+
+
+}
+
+.gradient2
+{
+   
+    width: 150px;
+    height: 150px;
+    background: rgb(137,106,192);
+    background: radial-gradient( purple, crimson, orangered, gold);
+    margin-right: 50px;
+
+
+}
+
+.gradient3
+{
+   
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(at 50% 25%, yellow, lime, blue, violet, red, yellow);
+    border-radius: 100%;
+
+
+}
+
+.preob1
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 0, 255, 0.3);
+    margin-right: 70px;
+}
+
+.pre1
+{
+    width: 150px;
+    height: 150px;
+    background-color: #b447e7b0;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    
+}
+
+.pre1:hover
+{
+    transform: translate(0, 20px);   
+}
+
+
+
+
+.preob2
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 191, 255, 0.3);
+    margin-right: 50px;
+}
+
+.pre2
+{
+    width: 150px;
+    height: 150px;
+    background-color: #5144c7;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+
+}
+
+.pre2:hover
+{
+    transform: scaleX(-1);
+}
+
+
+.preob3
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(53, 160, 192, 0.3);
+    margin-right: 50px;
+    perspective: 500px;
+}
+
+.pre3
+{
+    width: 150px;
+    height: 150px;
+    background-color: #163b8b;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+   
+    
+}
+
+.pre3:hover
+{
+    transform: translate3d(30px, 30px,30px) rotate3d(1,1,1,60deg);
+}
+
+
+.preob4
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(212, 44, 162, 0.3);
+    margin-right: 50px;
+    perspective: 500px;
+    transform-style: flat;
+}
+
+.pre4
+{
+    width: 150px;
+    height: 150px;
+    background-color: #c532ff;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+   
+    
+}
+
+.pre4:hover
+{
+    transform: rotateX(60deg);
+}

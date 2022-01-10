@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,700&display=swap');
+
+.bodyform
+{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.mainform
+{
+flex-grow: 1;
+}
+
+.formagl
+{
+
+    color: var(--but2);
+    font-weight: lighter;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.formf
+{
+   display: flex;
+   flex-direction: column;
+   width: 900px;
+    margin: 100px;
+    gap: 50px;
+}
+
+.label1 {
+    padding-bottom: 10px;
+    color: var(--colortxt2);
+    font-weight: lighter;
+    
+}
+.butform
+{
+    background-color: var(--but2);
+    color: var(--but1);
+   
+    border: none;
+}
+.butform:focus {
+    color: rgb(219, 86, 86);
+}
+.butform:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.butform:active {
+    color: rgb(150, 34, 150);
+}
+.zvet
+{
+    background-color: #FFC0CB;
+}
+
+
+:required
+{
+    background-color: #d186ac;
+    text-decoration: underline;
+    color: var(--but2);
+    font-weight:inherit;
+}
+
+
+input:focus
+{
+    background-color: #70a8dd;
+}
+
+
+input[type="checkbox"]:checked ~ .morn
+{
+    color:  #d186ac;
+    text-shadow: 0 0 1px black;
+    font-weight: 800;
+}
+
+input[type="checkbox"]:checked ~ .afternoon
+{
+    color: rgb(209, 69, 174);
+    text-shadow: 0 0 1px black;
+    font-weight: 800;
+}
+
+input[type="checkbox"]:checked ~ .night
+{
+    color: rgb(122, 16, 122);
+    text-shadow: 0 0 1px black;
+    font-weight: 800;
+}
+input[type="date"]
+{
+    color: var(--but2);
+
+}
+.butDis:disabled 
+{
+    opacity: 0.5;
+}
+
+dl
+{
+    display: flex;
+    flex-direction: column;
+}
+
+dt::first-letter
+{
+    font-size: 40px;
+     font-weight: bold; 
+}
+
+dt
+{
+
+    color: var(--but2);
+    margin-left: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+dd
+{
+   
+    margin-left: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    width: 700px;
+    font-weight: lighter;
+    color: var(--but2);
+
+}
+
+dd::after
+{
+    content: "\1F6C8";
+}
+
+
+.divCheck
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.divCheck2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    font-weight: lighter;
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.textform
+{
+   
+    color: var(--but2);
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+input[type="checkbox"]:checked ~ .checkedform
+{
+    text-decoration: line-through;
+    color: maroon;
+}
+
+.childdd:nth-child(odd)
+{
+    background-color: rgb(90, 140, 233);
+
+}
+
+.childdd:nth-child(even)
+{
+    background-color: #d186ac;
+   font-style: italic;
+
+}

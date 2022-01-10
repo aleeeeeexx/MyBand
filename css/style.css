@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 
 :root {
@@ -17,11 +17,10 @@ p {
 
 }
 
-p::selection {
+::selection {
     color: red;
     background-color: black;
 }
-
 
 
 .visually-hidden{
@@ -49,10 +48,19 @@ ul {
 }
 
 .lih:hover {
-    color: #ccc;
     text-decoration: underline;
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
 }
 
+.lih:active {
+    color: rgb(165, 125, 238);
+}
+.lih:focus {
+    color: rgb(108, 16, 121);
+    
+}
  a { 
     text-decoration: none; 
 }
@@ -117,7 +125,17 @@ ul {
      padding-bottom: 40px; 
     color:var(--colortxt);
     }
-
+.booknow:focus {
+    color: rgb(219, 86, 86);
+}
+.booknow:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.booknow:active {
+    color: rgb(150, 34, 150);
+}
     .book {
     box-sizing: border-box;
     display: flex;
@@ -134,7 +152,17 @@ ul {
     color:var(--colortxt); 
     margin-bottom: 40px;
 }
-
+.book:focus {
+    color: rgb(219, 86, 86);
+}
+.book:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.book:active {
+    color: rgb(150, 34, 150);
+}
 .from {
     box-sizing: border-box;
     position: absolute; 
@@ -151,6 +179,15 @@ ul {
     color: var(--colortxt2);
 }
 
+
+.from:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.from:active {
+    color: rgb(150, 34, 150);
+}
 .price {
     box-sizing: border-box;
     font-size: 17px;
@@ -159,6 +196,12 @@ ul {
     color: var(--colortxt2);
 }
 
+.price:hover {
+    color: rgb(184, 151, 221);
+}
+.price:active {
+    color: rgb(150, 34, 150);
+}
 .pernight {
     box-sizing: border-box; 
     font-size: 12px;
@@ -169,6 +212,12 @@ ul {
     width: 100px;
 }
 
+.pernight:hover {
+    color: rgb(184, 151, 221);
+}
+.pernight:active {
+    color: rgb(150, 34, 150);
+}
 .img2 {
     padding-top: 600px;  
     width: 700px;
@@ -196,9 +245,21 @@ ul {
     display: flex;
     color: var(--but2);  
     text-decoration-line: underline;
-    padding-top:40px ;
-    
-    }
+    margin-top:40px ;
+    width: 100px;
+ }
+
+ .readmore1:focus {
+    color: rgb(219, 86, 86);
+}
+.readmore1:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.readmore1:active {
+    color: rgb(150, 34, 150);
+}
 
 .threeimg { 
 
@@ -246,10 +307,21 @@ font-style: italic;
 display: flex;
 color: var(--but2);  
 text-decoration-line: underline;
-padding-top:40px ;
-/* padding-left:850px ; */
+margin-top:40px ;
+width: 100px;
 }
 
+.readmore:focus {
+    color: rgb(219, 86, 86);
+}
+.readmore:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.readmore:active {
+    color: rgb(150, 34, 150);
+}
 .glav {
 background:var(--but2); 
 color:var(--colortxt); 
@@ -330,6 +402,17 @@ font-weight: 500;
     height: 50px;
 
 }
+.contacts:focus {
+    color: rgb(219, 86, 86);
+}
+.contacts:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.contacts:active {
+    color: rgb(150, 34, 150);
+}
 
 .threecontacts {
     display: flex;
@@ -346,12 +429,34 @@ font-weight: 500;
     font-weight: lighter;    
     color:var(--but2);
 }
-
+.contactss:focus {
+    color: rgb(219, 86, 86);
+}
+.contactss:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.contactss:active {
+    color: rgb(150, 34, 150);
+}
 .contactsss {
     font-size: 20px;
     color:var(--but2);
-   padding-bottom: 50px; 
+   margin-bottom: 50px; 
     font-weight: lighter;
+}
+
+.contactsss:focus {
+    color: rgb(219, 86, 86);
+}
+.contactsss:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.contactsss:active {
+    color: rgb(150, 34, 150);
 }
  .img7 {
      width: 350px; 
@@ -375,21 +480,31 @@ font-weight: 500;
      padding-bottom: 30px; 
     color: var(--colortxt);
 }
-
+.bookahut:focus {
+    color: rgb(219, 86, 86);
+}
+.bookahut:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.bookahut:active {
+    color: rgb(150, 34, 150);
+}
 .from1 { 
 display: flex; 
 box-sizing: border-box;
 font-size: 12px;
 font-weight: 10;
-margin-top: -80px;   
+margin-top: -90px;   
 margin-bottom: 180px;
  margin-left: 450px; 
 background:var(--but1);
 width: 150px;
 padding-right: 10px;
 padding-left: 18px;
-padding-top: 14px;
-padding-bottom: 14px;
+padding-top: 20px;
+padding-bottom: 18px;
 color:var(--colortxt2);
 }
 
@@ -463,6 +578,13 @@ color: var(--colortxt);
  font-style: oblique;
 }
 
+.form2 {
+   background-color: var(--but2);  
+   border: none;
+   border-bottom: 1px solid var(--colortxt);
+
+}
+
 .input1 {
     background: transparent; 
     border: none;
@@ -474,10 +596,20 @@ color: var(--colortxt);
     width: 100px; 
    margin-top: 30px;
     color: var(--colortxt);
-
+border: none;
 }
   
-
+.butt:focus {
+    color: rgb(219, 86, 86);
+}
+.butt:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.butt:active {
+    color: rgb(150, 34, 150);
+}
 .dop {
 
 display: flex;
@@ -493,6 +625,17 @@ margin-top: -70px;
 color:var(--colortxt);
 }
 
+.terms:focus {
+    color: rgb(219, 86, 86);
+}
+.terms:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.terms:active {
+    color: rgb(150, 34, 150);
+}
 .fourcontacts {
 box-sizing: border-box;
 display: flex;
@@ -500,12 +643,20 @@ flex-direction: row;
 justify-content: space-around;
 width: 1450px;
 padding-left: 950px;
-margin-top: -200px;
-
-
-    
+margin-top: -200px;  
 }
 
+.img8:focus {
+    color: rgb(219, 86, 86);
+}
+.img8:hover {
+    color: rgb(184, 151, 221);
+    box-shadow: 2px 3px 10px 2px #793e91;
+    transition: all 0.5s;
+}
+.img8:active {
+    color: rgb(150, 34, 150);
+}
 .theglass {
     box-sizing: border-box;
     font-size: 18px;
@@ -516,49 +667,70 @@ margin-top: -200px;
 
 }
 
-.bodyForm
+.loader
 {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-}
-
-.mainForm
-{
-flex-grow: 1;
-}
-
-.footerForm
-{
-display: flex;
-width: 1280px;
-}
-
-.Formagl
-{
-
-    color: var(--colorosn);
-    font-weight: lighter;
-    font-size: 28px;
-}
-
-.FormF
-{
-   display: flex;
-   flex-direction: column;
-   width: 900px;
-    margin: 100px;
-}
-
-.batForm
-{
-    background-color: var(--colorosn);
-    color: var(--but2);
    
-    border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    opacity: 1;
+   transform-origin:center;
+    animation-name: boxanim;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    margin-top: 15%;
 }
 
-.zvet
+.forloader
 {
-    background-color: #FFC0CB;
+    opacity: 0;
+    margin-top: -41%;
+    transform-origin:center;
+    animation-name: boxanim1;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
 }
+
+@keyframes boxanim
+{
+    0%
+    {
+        transform: rotate(0);
+        opacity: 1;
+    }
+
+   90%
+   {
+    opacity: 1;
+   }
+
+    100%
+    {
+        transform: rotate(720deg);
+        opacity: 0;
+    }
+
+
+}
+
+@keyframes boxanim1
+{
+    0%
+    {
+        opacity: 0;
+
+    }
+    95%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+
+    }
+}
+
+
