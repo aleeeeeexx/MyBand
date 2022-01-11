@@ -175,19 +175,19 @@ dd::after
     font-weight: lighter;
 }
 
-input[type="checkbox"]:checked ~ .checkedform
+input[type="checkbox"]:checked ~ .chform
 {
     text-decoration: line-through;
     color: maroon;
 }
 
-.childdd:nth-child(odd)
+.psclass:nth-child(odd)
 {
     background-color: rgb(124, 190, 199);
 
 }
 
-.childdd:nth-child(even)
+.psclass:nth-child(even)
 {
    font-style: italic;
 }
