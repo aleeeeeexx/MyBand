@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head>
-        <meta charset="utf-8">
-        <title>Forma</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="CSS/normalize.css"> 
-        <link rel="stylesheet" href="css/forma.css">
-    </head>
-        <body class="bodyform">
+<html lang="en">
 
-            <header >
-                <img src="images/logo.jpg" alt="Logo">
-                <nav>
-                     
-                    <ul>
-                        <li><a  class="lih" href="index.html">HOME</a></li>
-                        <li><a  class="lih" href="">THE HUT</a></li>
-                        <li><a  class="lih" href="">THE AREA</a></li>
-                        <li><a  class="lih" href="">BOOKING</a></li>
-                        <li><a  class="lih" href="">ABOUT US</a></li>
-                        <li><a  class="lih" href="">FAQ</a></li>
-                        <li><img class="logo" src="images/2021-10-18_14-40-11.png" alt="Logo"></li>
-                    </ul>  
-                    
-                </nav>
-                <a class="book" href="">BOOK NOW</a>
-            </header>
+<head>
+    <meta charset="utf-8">
+    <title>Forma</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="css/forma.css">
+</head>
 
-   
+<body class="bodyform">
+
+    <header>
+        <img src="images/logo.jpg" alt="Logo">
+        <nav>
+
+            <ul>
+                <li><a class="lih" href="index.html">HOME</a></li>
+                <li><a class="lih" href="">THE HUT</a></li>
+                <li><a class="lih" href="">THE AREA</a></li>
+                <li><a class="lih" href="">BOOKING</a></li>
+                <li><a class="lih" href="">ABOUT US</a></li>
+                <li><a class="lih" href="">FAQ</a></li>
+                <li><img class="logo" src="images/2021-10-18_14-40-11.png" alt="Logo"></li>
+            </ul>
+
+        </nav>
+        <a class="book" href="">BOOK NOW</a>
+    </header>
+
+
 
     <main class="mainform">
         <section>
@@ -51,21 +53,24 @@
                 <fieldset>
 
                     <legend class="formagl"> Контактные Данные </legend>
-                    <p  class="label1">
+                    <p class="label1">
                         <label> Email <input class="zvet" type="email" name="email" placeholder="post@gmail.com"
-                                required></label>
-                        <label> Придумайте пароль <input class="zvet" type="password" name="password"
-                                placeholder="password" required></label>
-                    </p>
+                                required></label>  </p>
+                     <p  class="label1"> <label> Придумайте пароль <input class="zvet" type="password" name="password"
+                                placeholder="password" required></label></p>  
+                  
 
-                   <p  class="label1"><label> Контактный номер телефона <input type="tel" name="tel" placeholder ="89296556644"></label></p> 
+                    <p class="label1"><label> Контактный номер телефона <input type="tel" name="tel"
+                                placeholder="89296556644"></label></p>
 
                     <p class="label1">
-                        <label> Удобный интервал для связи </label>
+                        <label> Удобный интервал для связи: </label>
                         <label><input type="checkbox" name="morning" value="Утром"> <span class="morn">Утром</span>
                         </label>
-                        <label><input type="checkbox" name="day" value="Днем"> <span class="afternoon"> Днем </span></label>
-                        <label><input type="checkbox" name="evening" value="Вечером"> <span class="night"> Вечером</span></label>
+                        <label><input type="checkbox" name="day" value="Днем"> <span class="afternoon"> Днем
+                            </span></label>
+                        <label><input type="checkbox" name="evening" value="Вечером"> <span class="night">
+                                Вечером</span></label>
                     </p>
 
                     <button class="butform" type="submit"> Отправить </button>
@@ -81,22 +86,23 @@
             <form>
                 <dl>
                     <dt>Псевдоклассы</dt>
-                    <dd>Это селектор, который выбирает элементы, находящиеся в специфическом состоянии,
-                        например, они являются первым элементом своего типа, или на них наведён указатель мыши.
+                    <dd>Псевдоклассами называют селекторы, которые влияют на существующие элементы документа.
+                        Псевдоэлементами обычно задают и меняют область, которая изначально отсутствовала в исходном
+                        файле.
                     </dd>
                     <dt>Псевдоэлементы</dt>
-                    <dd>Это ключевое слово, добавляемое к селектору, которое позволяет
-                        стилизовать определённую часть выбранного элемента. </dd>
+                    <dd>Это специальное ключевое слово, которое добавляется к css-селектору и позволяет задавать стили
+                        для части выбранного HTML-элемента. </dd>
                 </dl>
 
                 <div class="divCheck">
                     <div class="divCheck2">
                         <span class="textform">:Псевдоклассы</span>
                         <label><input type="checkbox" name="root" value=":root" checked> <span
-                            class="chform">:root</span></label>
+                                class="chform">:root</span></label>
                         <label><input type="checkbox" name="link" value=":link"> <span
-                                class="chform">:link</span></label> 
-                       <label><input type="checkbox" name="visited" value=":visited"> <span
+                                class="chform">:link</span></label>
+                        <label><input type="checkbox" name="visited" value=":visited"> <span
                                 class="chform">:visited</span></label>
                         <label><input type="checkbox" name="hover" value=":hover" checked> <span
                                 class="chform">:hover</span></label>
@@ -104,25 +110,25 @@
                                 class="chform">:active</span></label>
                         <label><input type="checkbox" name="focus" value=":focus" checked> <span
                                 class="chform">:focus</span></label>
-                    
+
                     </div>
 
                     <div class="divCheck2">
-                        
-                            <span class="textform">::Псевдоэлементы</span>
-                            <label class="psclass"><input type="checkbox" name="first-letter" value="::first-letter" checked> <span
-                                    class="chform">::first-letter</span></label>
-                            <label class="psclass"><input type="checkbox" name="first-line" value="::firs-line"> <span
-                                    class="chform">::firs-line</span></label>
-                            <label class="psclass"><input type="checkbox" name="selection" value="::selection" checked> <span
-                                    class="chform">::selection</span></label>
-                            <label class="psclass"><input type="checkbox" name="before" value="::before" checked> <span
-                                    class="chform">::before</span></label>
-                            <label class="psclass"><input type="checkbox" name="after" value="::aftere" checked> <span
-                                    class="chform">::aftere</span></label>
-                            <label class="psclass"><input type="checkbox" name="placeholder" value="::placeholder"> <span
-                                    class="chform">::placeholder</span></label>
-                       
+
+                        <span class="textform">::Псевдоэлементы</span>
+                        <label class="psclass"><input type="checkbox" name="first-letter" value="::first-letter"
+                                checked> <span class="chform">::first-letter</span></label>
+                        <label class="psclass"><input type="checkbox" name="first-line" value="::firs-line"> <span
+                                class="chform">::firs-line</span></label>
+                        <label class="psclass"><input type="checkbox" name="selection" value="::selection" checked>
+                            <span class="chform">::selection</span></label>
+                        <label class="psclass"><input type="checkbox" name="before" value="::before" checked> <span
+                                class="chform">::before</span></label>
+                        <label class="psclass"><input type="checkbox" name="after" value="::aftere" checked> <span
+                                class="chform">::aftere</span></label>
+                        <label class="psclass"><input type="checkbox" name="placeholder" value="::placeholder"> <span
+                                class="chform">::placeholder</span></label>
+
                     </div>
 
 
@@ -138,30 +144,31 @@
 
         <p class="newsletter"> Newsletter </p>
         <div class="dop">
-        <a class="terms" href="">TERMS AND CONDITIONS </a>
-        <a class="terms" href="">CENCELLATION POLICY</a>
-        <a class="terms" href="">PRIVACY POLICY</a>
+            <a class="terms" href="">TERMS AND CONDITIONS </a>
+            <a class="terms" href="">CENCELLATION POLICY</a>
+            <a class="terms" href="">PRIVACY POLICY</a>
         </div>
         <div>
-        <form class="form1">
-            <p>Email <input class="input1" type="text" name="Name"> </p>    
-            <p><input class="butt" type="submit"></p>
-        </form>
-    </div>
-       
-        <p class="signup">Sign up to our newsletter for special things and receive</p> <p class="proc">10% off your next order. </p>
-   
-<div class="fourcontacts">
-    <a href=""><img class="img8" src="images/2021-10-15_19-40-36.png" alt=""></a>
-    <a href=""><img class="img8" src="images/2021-10-15_19-40-20.png" alt=""></a>
-    <a href=""><img class="img8" src="images/2021-10-15_19-38-14.png" alt=""></a>
-    <a href=""><img class="img8" src="images/2021-10-15_19-37-54.png" alt=""></a>
-</div>
-<div>   
-<p class="theglass"> © 2021 The Glass Huts</p>
-</div>    
- 
-</footer>
+            <form class="form1">
+                <p>Email <input class="input1" type="text" name="Name"> </p>
+                <p><input class="butt" type="submit"></p>
+            </form>
+        </div>
+
+        <p class="signup">Sign up to our newsletter for special things and receive</p>
+        <p class="proc">10% off your next order. </p>
+
+        <div class="fourcontacts">
+            <a href=""><img class="img8" src="images/2021-10-15_19-40-36.png" alt=""></a>
+            <a href=""><img class="img8" src="images/2021-10-15_19-40-20.png" alt=""></a>
+            <a href=""><img class="img8" src="images/2021-10-15_19-38-14.png" alt=""></a>
+            <a href=""><img class="img8" src="images/2021-10-15_19-37-54.png" alt=""></a>
+        </div>
+        <div>
+            <p class="theglass"> © 2021 The Glass Huts</p>
+        </div>
+
+    </footer>
 
 
 
