@@ -121,7 +121,7 @@ dt
 {
 
     color: var(--but2);
-    margin-left: 300px;
+    margin-left: 100px;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -130,7 +130,7 @@ dt
 dd
 {
    
-    margin-left: 300px;
+    margin-left: 100px;
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 25px;
@@ -150,7 +150,7 @@ dd::after
 {
     display: flex;
     flex-direction: row;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-bottom: 100px;
 }
 
@@ -162,8 +162,8 @@ dd::after
     margin-bottom: 10px;
     line-height: 40px;
     font-weight: lighter;
-    font-size: 26px;
-    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+   
 }
 
 .textform
@@ -171,7 +171,7 @@ dd::after
    
     color: var(--but2);
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
 }
 
@@ -183,13 +183,11 @@ input[type="checkbox"]:checked ~ .checkedform
 
 .childdd:nth-child(odd)
 {
-    background-color: rgb(90, 140, 233);
+    background-color: rgb(124, 190, 199);
 
 }
 
 .childdd:nth-child(even)
 {
-    background-color: #d186ac;
    font-style: italic;
-
 }
