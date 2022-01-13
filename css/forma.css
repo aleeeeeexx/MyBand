@@ -191,3 +191,13 @@ input[type="checkbox"]:checked ~ .chform
 {
    font-style: italic;
 }
+::placeholder {
+    font-style: oblique;
+}
+
+fieldset 
+{
+    border: none;
+}
+
+  
