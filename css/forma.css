@@ -36,6 +36,16 @@ flex-grow: 1;
     font-weight: lighter;
     
 }
+label:active {
+    background-color: rgb(130, 59, 223);
+}
+
+
+label:hover {
+    background-color: rgb(130, 59, 223);
+}
+
+
 .butform
 {
     background-color: var(--but2);
